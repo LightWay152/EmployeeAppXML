@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EmployeeApp.jnlp">
+  <information>
+    <title>EmployeeApp</title>
+    <vendor>DaoNguyen</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EmployeeApp.jar" size="17714" download="eager" />
+  </resources>
+  <application-desc main-class="employeeapp.EmployeeJFrame"  name="EmployeeApp" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
